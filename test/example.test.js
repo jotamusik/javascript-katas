@@ -1,7 +1,6 @@
-
 import Example from "../src/example";
 
-describe('Example Class Defintestion', function () {
+describe('Example Class Definition', function () {
   test('Should have defined a exampleVariable member', function () {
     let example = new Example();
     expect(example.exampleVariable).toBeDefined();
